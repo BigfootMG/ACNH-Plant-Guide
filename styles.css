@@ -23,6 +23,10 @@ body {
 	padding: 10px;
 	text-decoration: none;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 #footer {font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: bold;
