@@ -31,6 +31,23 @@ body 	{align: center;
 main	{margin: 0 auto;
 	align: center;
 }
+main a{font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+#header a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #6CE2AB;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
 main img {display: block;
 	width: 100%;
 	max-width: 450px;
