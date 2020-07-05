@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169642327-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169642327-2');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACNH Plant Guide</title>
+  <link href="exstyles.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="PltPeach.png">
+  <link rel="icon" sizes="192x192" href="PltPeach.png">
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@B19F00T"/>
+  <meta name="twitter:title" content="ACNH Plant Guide"/>
+  <meta name="twitter:image" content="https://bigfootmg.github.io/ACNH-Plant-Guide/logo.png"/>
+  <meta name="twitter:description" content="A guide to every plant (and mushroom) in the game"/>
+</head>
+
+<body>
+<header align="center" id="header"><a href="extras.html"><img src="exlogo.png" width="150" height="121"  alt=""/></a>
+  <nav>
+	<ul><a href="#Money Trees">Money Trees</a>
+	<a href="All Plants">All Plants</a>
+	<a href="#Seasonal EX">Seasonal EX</a></ul>
+  </nav>
+</header>
+<main>
+	<a href=""><img src="ex01.png" width="450" height="563"></a></br>
+	<a href=""><img src="ex02.png" width="450" height="563" id="Money Trees"></a></br>	
+	<a href=""><img src="" width="450" height="563" id="All Plants">coming soon</a></br>
+  <a href=""><img src="" width="450" height="563" id="Seasonal EX">comingsoon</a></br>
+  <a href="#header">Back to top</a></br>
+</main>
+<footer align="center" id="footer">Guide created by Bigfoot MG <a href="https://twitter.com/B19F00T">@B19F00T</a>. DO NOT modify or redistribute any of these images without permission. DO NOT under any circumstance crop out or remove the credits. Please DM me on Twitter or Discord (Bigfoot MG#9157) to ask for permission. I will be happy to let you use it as long as you ask. Special thanks to <a href="https://twitter.com/AeonSake">Aeon</a> for helping me out.</br>
+</br>
+ACNH ver 1.2.1c, Last updated July 5th, 2020
+</footer>
+</body>
+</html>
