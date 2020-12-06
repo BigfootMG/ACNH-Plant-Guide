@@ -66,13 +66,13 @@ color: #6CE2AB;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #1f6600;}
+.dropdown-content a:hover {background-color: #174d00;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #1f6600;}
+.dropdown:hover .dropbtn {background-color: #174d00;}
 
 main	{margin: 0 auto;
 	align: center;
