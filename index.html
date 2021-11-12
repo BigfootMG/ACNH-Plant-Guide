@@ -27,8 +27,9 @@
 
 <body>
 <header align="center" id="header"><a href="https://bigfootmg.github.io/ACNH-Plant-Guide/"><img src="logo.png" width="150" height="121"  alt=""/></a>
-  <nav>
-	<ul><a href="#Tree Types">Tree Types</a>
+<section> 
+<nav class="navigation">
+	<a href="#Tree Types">Tree Types</a>
 	<a href="#Tree Growth">Tree Growth</a>
 	<a href="#Tree Drops">Tree Drops</a>
 	<a href="#Shrubs">Shrubs</a>
@@ -69,8 +70,11 @@
 		</div>
 		</div>
 	<a href="https://bigfootmg.github.io/ACNH-Plant-Guide/fr.html">français</a>
-	  </ul>
   </nav>
+  	<div class="toggleBox">
+		<a onclick="showMenu()" href="#"><img class="menu" src="menu.png"><img class="close" src="close.png"</a>
+	</div>
+</section>
 </header>
 <main>
 	<div align="center" class="info">Join the <a href="https://discord.gg/nCWN8F4DuS">ACNH Info discord server</a> for more resources about ACNH, or to chat or ask questions!</br></div>
@@ -87,5 +91,13 @@
 </br>
 ACNH ver 2.0.0, Last updated November 5th, 2021
 </footer>
+<script>
+	function showMenu(){
+	  document.querySelector('.navigation').classList.toggle('active')
+		;
+	  document.querySelector('.menu').classList.toggle('hide');
+	  document.querySelector('.close').classList.toggle('show');
+	}
+</script>
 </body>
 </html>
