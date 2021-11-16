@@ -154,6 +154,7 @@ header .menu .toggle::before {
 	content: '☰';
 	display: block;
 	height: 100%;
+	font-size: 20px;
 }
 header .menu.open .toggle::before {
 	content: '';
