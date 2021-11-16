@@ -221,6 +221,7 @@ main .info {
 	font-weight: bold;
 }
 main .guides > * {
+	display: block;
 	max-width: 450px;
 	margin: 0 auto;
 	line-height: 0;
