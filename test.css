@@ -28,23 +28,43 @@ body 	{align: center;
 	text-align: center;
 	text-decoration: none;
 }
-color: #6CE2AB;
-	text-decoration: none;
+
+.topnav {
+  overflow: hidden;
+  background-color: #154002;
+	justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 /* Dropdown Button */
-.dropbtn {
-  background-color: #4CAF50;
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
   color: white;
   padding: 16px;
-  font-size: 16px;
-  border: none;
+  background-color: #4CAF50;
+  font-family: inherit;
+  margin: 0;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  float: left;
+  overflow: hidden;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -59,10 +79,11 @@ color: #6CE2AB;
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+	text-align: center;
 }
 
 /* Change color of dropdown links on hover */
@@ -73,6 +94,42 @@ color: #6CE2AB;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #174d00;}
+
+.dropdown.show .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
 
 main	{margin: 0 auto;
 	align: center;
