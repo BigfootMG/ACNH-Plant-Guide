@@ -226,6 +226,7 @@ main .guides > * {
 	max-width: 450px;
 	margin: 0 auto;
 	line-height: 0;
+	padding: 10px;
 }
 main .to-top {
 	display: block;
