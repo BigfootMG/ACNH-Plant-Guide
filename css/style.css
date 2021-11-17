@@ -118,7 +118,7 @@ a:hover {
 /* ========== HEADER ========== */
 header .logo {
 	display: block;
-	width: 170px;
+	max-width: 170px;
 	margin: 0 auto;
 	padding: 10px;
 	text-align: center;
@@ -158,7 +158,7 @@ header .menu .toggle::before {
 }
 header .menu.open .toggle::before {
 	content: '';
-	background-image: url('/img/close.png');
+	background-image: url('../img/close.png');
 	background-size: 20px;
 }
 header .menu .toggle:hover,
